@@ -1,0 +1,25 @@
+{
+  "name": "snippets-hub",
+  "displayName": "Snippets Hub",
+  "description": "This is an awesome snippet to help you code faster",
+  "version": "0.0.1",
+  "icon": "./static/logo.jpg",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/mongodb.snippet.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/mongodb.snippet.json"
+      }
+    ]
+  }
+}
